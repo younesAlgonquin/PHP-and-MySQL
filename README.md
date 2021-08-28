@@ -1,6 +1,6 @@
 # PHP-and-MySQL
 
-This program creates an database named cst8238.
+This program creates a database named cst8238.
 
 The database is populated using a form that creates employee accounts in the ‘Employee’ table of the database. The form, creates two types of employee account 
       (i)ITDeveloper (Designation = ’ITDeveloper’, Admin Code = 111)
