@@ -1,0 +1,106 @@
+@CHARSET "ISO-8859-1";
+
+body
+{
+	margin: 0px;
+	font-family: Times New Roman;
+}
+
+input, select
+
+{
+	width: 30%;
+	margin:0.5%;
+	
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+
+
+.radio 
+
+{
+	
+	width: 3%;
+}
+
+
+#header
+{
+	border-style: solid;
+    border-color: black;
+	background-color: Aquamarine;
+	font-size: 100%;
+    color: black;
+    width: 92%;
+    height: 15%;
+    text-align: center;
+	margin-bottom: 2%;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 2%;
+
+}
+
+#menu 
+{
+    border-style: solid;
+    border-color: black;
+	position: fixed;
+	font-size: 150%;
+	padding: 1%;
+    text-align: left;
+    background-color: Aquamarine;
+    width: 20%;
+	height: 55%;
+	left:0%;
+	top:23%;
+    float: left;
+    bottom: 0px;
+	margin-left: 4%;
+	margin-right: 4%;
+}
+
+#content
+{
+    border-style: solid;
+    border-color: black;
+	font-size: 150%;
+	padding: 1%;
+    width: 66%;
+	height: 55%;
+	position: fixed;
+	left:13%;
+	top:23%;
+    float: right;
+	text-align: left;
+    background-color: Aqua;
+	margin-left: 15%;
+	margin-right: 4%;
+	overflow: scroll;
+}
+
+
+#footer 
+{
+	
+    border-style: solid;
+    border-color: black;
+	font-size: 100%;
+	position: fixed;
+	bottom: 2px;
+    background-color: Aquamarine;
+    color: black;
+    clear: both;
+    text-align: center;
+    width: 92%;
+	height: 15%;
+	margin-left: 4%;
+	margin-right: 4%;
+	margin-top: 2%;
+	position: absolute;
+}
